@@ -1,0 +1,62 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    width: 80%;
+    max-width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#mensagem {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Estilos do álbum */
+.album-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.album img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.album {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
